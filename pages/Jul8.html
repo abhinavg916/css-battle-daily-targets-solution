@@ -1,0 +1,38 @@
+<div class="container">
+    <div class="wrapper">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</div>
+<style>
+    .container {
+        margin: -8px;
+        width: 400px;
+        height: 300px;
+        background-color: #0a6190;
+        overflow: hidden;
+    }
+
+    .wrapper {
+        height: 100%;
+        width: 200%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 100px;
+        transform: translateX(-25%);
+    }
+
+    .box {
+        width: 200px;
+        height: 100px;
+        transform: skew(-26deg);
+        background-color: #328fc1;
+        position: relative;
+    }
+
+    .box:nth-child(odd) {
+        transform: skew(26deg);
+    }
+</style>

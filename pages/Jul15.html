@@ -1,0 +1,70 @@
+<div class="container">
+    <div class="wrapper">
+        <div class="all-shapes-contain">
+            <div class="first-semi-circle-contain">
+                <div class="first-semi-circle"></div>
+            </div>
+            <div class="rectangle-bar"></div>
+            <div class="second-semi-circle-contain">
+                <div class="second-semi-circle"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    .container {
+        margin: -8px;
+        width: 400px;
+        height: 300px;
+        background-color: #b53733;
+        overflow: hidden;
+    }
+
+    .wrapper {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .all-shapes-contain {
+        height: 160px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .first-semi-circle-contain {
+        height: 160px;
+        width: 80px;
+        overflow: hidden;
+    }
+
+    .first-semi-circle {
+        height: 160px;
+        width: 160px;
+        background-color: #ea7457;
+        border-radius: 50% 0 0 50%;
+    }
+
+    .rectangle-bar {
+        width: 30px;
+        height: 150px;
+        background-color: #ea7457;
+    }
+
+    .second-semi-circle-contain {
+        height: 160px;
+        width: 30px;
+        overflow: hidden;
+    }
+
+    .second-semi-circle {
+        height: 160px;
+        width: 160px;
+        background-color: #ea7457;
+        border-radius: 0 50% 50% 0;
+        transform: translateX(-81%);
+    }
+</style>

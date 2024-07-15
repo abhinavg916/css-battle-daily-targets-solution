@@ -1,5 +1,7 @@
 # CSSBattle Daily Challenge Solution
 
+[Live Preview - CSSBattle Daily Challenge Solution]()
+
 Online Profiles
 
 -   [CSSBattle - @abhinavg916](https://cssbattle.dev/player/abhinavg916)

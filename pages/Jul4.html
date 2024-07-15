@@ -1,0 +1,69 @@
+<div class="container">
+    <div class="wrapper">
+        <div class="left">
+            <div class="top-square square"></div>
+            <div class="bottom-square square"></div>
+        </div>
+        <div class="right">
+            <div class="top-square square"></div>
+            <div class="bottom-square square"></div>
+        </div>
+    </div>
+</div>
+<style>
+    .container {
+        margin: -8px;
+        width: 400px;
+        height: 300px;
+        background-color: #4f77ff;
+        overflow: hidden;
+    }
+
+    .wrapper {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .square {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: #ffffff;
+    }
+
+    .left,
+    .right {
+        height: 100%;
+        display: flex;
+        margin: 60px 0 0 120px;
+        position: relative;
+    }
+
+    .left .bottom-square {
+        position: absolute;
+        top: 13%;
+        left: 27%;
+        background-color: #4f77ff;
+    }
+
+    .right {
+        align-items: flex-end;
+        margin: 0 120px 60px 0;
+        position: relative;
+    }
+
+    .right .bottom-square {
+        position: absolute;
+        bottom: 13%;
+        right: 27%;
+        background-color: #4f77ff;
+    }
+</style>
+
+<!-- Key Learning 
+- translate property takes up space but keeps the z-index same
+- position property does not takes up space but lifts the in z-index
+-->

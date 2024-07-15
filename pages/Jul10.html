@@ -1,0 +1,68 @@
+<div class="container">
+    <div class="wrapper">
+        <div class="top-bar bar">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="middle-bar bar"></div>
+        <div class="bottom-bar bar">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+</div>
+<style>
+    .container {
+        margin: -8px;
+        width: 400px;
+        height: 300px;
+        background-color: #edaf38;
+        overflow: hidden;
+    }
+
+    .wrapper {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bar {
+        width: 100%;
+        height: 100px;
+        background-color: #ffffcd;
+        display: flex;
+        gap: 20px;
+    }
+
+    .box {
+        width: 100px;
+        height: 100px;
+        background-color: #ffffcd;
+    }
+
+    .top-bar {
+        margin-bottom: 20px;
+        background-color: #edaf38;
+    }
+
+    .bottom-bar {
+        margin-top: 20px;
+        background-color: #edaf38;
+    }
+
+    .middle-bar {
+        padding: 50px 0;
+        background-color: #ffffcd;
+    }
+</style>

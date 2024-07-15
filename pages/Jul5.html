@@ -1,0 +1,72 @@
+<div class="container">
+    <div class="wrapper">
+        <div class="left-bar bar">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="left-rect rect"></div>
+        <div class="right-rect rect">
+            <div class="box"></div>
+        </div>
+        <div class="right-bar bar">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+</div>
+<style>
+    .container {
+        margin: -8px;
+        width: 400px;
+        height: 300px;
+        background-color: #ea7457;
+        overflow: hidden;
+    }
+
+    .wrapper {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bar {
+        width: 50px;
+        height: 100%;
+    }
+
+    .rect {
+        width: 150px;
+        height: 100%;
+    }
+
+    .box {
+        flex: 1;
+    }
+
+    .left-bar,
+    .right-bar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-bar .box:nth-child(even) {
+        background-color: #b53733;
+    }
+
+    .right-bar .box:nth-child(odd) {
+        background-color: #b53733;
+    }
+
+    .left-rect {
+        background-color: #b53733;
+    }
+
+    .right-rect .box {
+        height: 50px;
+        width: 100%;
+        background-color: #b53733;
+    }
+</style>

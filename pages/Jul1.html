@@ -1,0 +1,43 @@
+<div class="container">
+    <div class="wrapper">
+        <div class="bar left-bar"></div>
+        <div class="bar center-bar"></div>
+        <div class="bar right-bar"></div>
+    </div>
+</div>
+<style>
+    .container {
+        margin: -8px;
+        width: 400px;
+        height: 300px;
+        background-color: #eff8fe;
+        overflow: hidden;
+    }
+
+    .wrapper {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .bar {
+        height: 100%;
+        width: 60px;
+        background-color: #4f77ff;
+    }
+
+    .left-bar {
+        height: 100%;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+        transform: rotate(-30deg) translate(-10%, 40%);
+    }
+
+    .right-bar {
+        height: 100%;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+        transform: rotate(30deg) translate(10%, 40%);
+    }
+</style>

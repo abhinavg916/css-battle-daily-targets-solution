@@ -1,0 +1,59 @@
+<div class="container">
+    <div class="wrapper">
+        <div class="segment">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+        <div class="segment">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+    </div>
+</div>
+<style>
+    .container {
+        margin: -8px;
+        width: 400px;
+        height: 300px;
+        background-color: #f48b26;
+        overflow: hidden;
+    }
+
+    .wrapper {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .segment {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .square {
+        background-color: #feff58;
+        width: 60px;
+        height: 50px;
+    }
+
+    .segment:first-child {
+        border-bottom: 10px solid #feff58;
+    }
+
+    .segment:last-child {
+        border-top: 10px solid #feff58;
+    }
+</style>
