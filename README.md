@@ -1,6 +1,6 @@
 # CSSBattle Daily Challenge Solution
 
-[Live Preview - CSSBattle Daily Challenge Solution]()
+Live Preview at [CSSBattle Daily Challenge Solution](https://abhinavg916.github.io/css-battle-daily-solutions/)
 
 Online Profiles
 
