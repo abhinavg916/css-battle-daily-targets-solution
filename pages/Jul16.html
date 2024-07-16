@@ -1,0 +1,60 @@
+<div class="container">
+    <div class="wrapper">
+        <div class="top">
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="bottom">
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+</div>
+<style>
+    .container {
+        margin: -8px;
+        width: 400px;
+        height: 300px;
+        background-color: #4f77ff;
+        overflow: hidden;
+    }
+
+    .wrapper {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .box {
+        width: 100px;
+        height: 100px;
+        background-color: #eff8fe;
+    }
+
+    .top,
+    .bottom {
+        height: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .bottom {
+        align-items: flex-end;
+    }
+
+    .top .box:nth-child(1) {
+        border-radius: 0 0 40% 0;
+    }
+    .top .box:nth-child(2) {
+        border-radius: 0 0 0 40%;
+    }
+    .bottom .box:nth-child(1) {
+        border-radius: 0 40% 0 0;
+    }
+    .bottom .box:nth-child(2) {
+        border-radius: 40% 0 0 0;
+    }
+</style>
