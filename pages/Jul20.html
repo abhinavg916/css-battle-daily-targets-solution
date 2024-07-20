@@ -1,0 +1,62 @@
+<div class="container">
+    <div class="wrapper">
+        <div class="circle"></div>
+        <div class="bars">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <div class="circle"></div>
+    </div>
+</div>
+<style>
+    .container {
+        margin: -8px;
+        width: 400px;
+        height: 300px;
+        background-color: #f48b26;
+        overflow: hidden;
+    }
+
+    .wrapper {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        position: relative;
+    }
+
+    .circle {
+        width: 260px;
+        height: 260px;
+        border-radius: 50%;
+        background-color: #f48b26;
+    }
+
+    .circle:first-child {
+        position: absolute;
+        top: -24%;
+        left: -21%;
+    }
+
+    .circle:last-child {
+        position: absolute;
+        top: -24%;
+        right: -21%;
+    }
+
+    .bars {
+        display: flex;
+        gap: 20px;
+        height: 67%;
+    }
+
+    .bar {
+        width: 40px;
+        height: 100%;
+        background-color: #feff58;
+    }
+</style>
