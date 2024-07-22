@@ -1,0 +1,60 @@
+<div class="container">
+    <ul class="wrapper">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+<style>
+    .container {
+        margin: -8px;
+        width: 400px;
+        height: 300px;
+        background-color: #b53733;
+        overflow: hidden;
+    }
+
+    .wrapper {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        width: 20px;
+        height: 150px;
+        background-color: #ea7457;
+    }
+
+    li:nth-child(1),
+    li:nth-child(9) {
+        transform: translateY(-56%);
+    }
+    li:nth-child(2),
+    li:nth-child(8) {
+        transform: translateY(-30%);
+    }
+    li:nth-child(3),
+    li:nth-child(7) {
+        transform: translateY(-3%);
+    }
+    li:nth-child(4),
+    li:nth-child(6) {
+        transform: translateY(23%);
+    }
+
+    li:nth-child(5) {
+        transform: translateY(50%);
+    }
+</style>
