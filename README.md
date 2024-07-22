@@ -6,7 +6,7 @@ Live Preview - [CSSBattle Daily Challenges Solution](https://abhinavg916.github.
 
 ## To-do feature
 
-[ ] View source code button with automation script using JavaScript to display the source of the challenge
+-   [ ] View source code button with automation script using JavaScript to display the source of the challenge
 
 ---
 
