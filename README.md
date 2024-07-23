@@ -6,9 +6,9 @@ Live Preview - [CSSBattle Daily Challenges Solution](https://abhinavg916.github.
 
 Sources of Truth
 
+-   CSSBattle Platform
 -   CodePen
 -   Git Repository
--   CSSBattle Platform
 
 ## To-do feature
 
