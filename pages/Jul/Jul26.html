@@ -1,0 +1,68 @@
+<div class="container">
+    <div class="wrapper">
+        <div class="big-circle">
+            <div class="small-circle"></div>
+            <div class="small-circle"></div>
+            <div class="small-circle"></div>
+            <div class="small-circle"></div>
+        </div>
+        <div class="inner-circle"></div>
+    </div>
+</div>
+<style>
+    .container {
+        margin: -8px;
+        width: 400px;
+        height: 300px;
+        background-color: #6592cf;
+        overflow: hidden;
+    }
+
+    .wrapper {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        position: relative;
+    }
+
+    .big-circle {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: #243d83;
+    }
+
+    .small-circle {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color: #243d83;
+    }
+
+    .small-circle:nth-child(1) {
+        transform: translate(75%, -39%);
+    }
+    .small-circle:nth-child(2) {
+        transform: translate(187%, -26%);
+    }
+
+    .small-circle:nth-child(3) {
+        transform: translate(75%, -13%);
+    }
+    .small-circle:nth-child(4) {
+        transform: translate(-38%, -226%);
+    }
+
+    .inner-circle {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: #6592cf;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+</style>
