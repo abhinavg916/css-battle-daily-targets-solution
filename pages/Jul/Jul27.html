@@ -1,0 +1,48 @@
+<div class="container">
+    <div class="wrapper">
+        <div class="semi-circle">
+            <div class="triangle"></div>
+            <div class="triangle"></div>
+        </div>
+        <div class="bar"></div>
+    </div>
+</div>
+<style>
+    .container {
+        margin: -8px;
+        width: 400px;
+        height: 300px;
+        background-color: #f48b26;
+        overflow: hidden;
+    }
+
+    .wrapper {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .semi-circle {
+        width: 130px;
+        height: 102px;
+        border-radius: 0 0 50% 50%;
+        background-color: #feff58;
+        display: flex;
+    }
+
+    .triangle {
+        width: 0px;
+        height: 0px;
+        border-left: 32px solid transparent;
+        border-right: 32px solid transparent;
+        border-top: 32px solid #f48b26;
+    }
+
+    .bar {
+        width: 20px;
+        height: 150px;
+        background-color: #feff58;
+    }
+</style>
