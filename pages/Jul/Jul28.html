@@ -1,0 +1,67 @@
+<div class="container">
+    <div class="wrapper">
+        <div class="top-contain"><div class="circle"></div></div>
+        <div class="middle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <div class="bottom-contain"><div class="circle"></div></div>
+    </div>
+</div>
+<style>
+    .container {
+        margin: -8px;
+        width: 400px;
+        height: 300px;
+        background-color: #0a6190;
+        overflow: hidden;
+    }
+
+    .wrapper {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .top-contain {
+        width: 200px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        overflow: hidden;
+    }
+
+    .circle {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: #328fc1;
+    }
+
+    .middle {
+        width: 200px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        background-color: #0a6190;
+    }
+
+    .middle .bar {
+        width: 20px;
+        height: 100%;
+        background-color: #328fc1;
+    }
+
+    .bottom-contain {
+        width: 200px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        overflow: hidden;
+    }
+</style>
