@@ -1,0 +1,66 @@
+<div class="container">
+    <div class="wrapper">
+        <div class="upper">
+            <div class="semi">
+                <div class="circle"></div>
+            </div>
+            <div class="bar"></div>
+        </div>
+        <div class="lower"></div>
+    </div>
+</div>
+<style>
+    .container {
+        margin: -8px;
+        width: 400px;
+        height: 300px;
+        background-color: #b53733;
+        overflow: hidden;
+    }
+
+    .wrapper {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .upper {
+        width: 160px;
+        height: 67%;
+        background-color: #ea7457;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        border-radius: 0 0 25% 25%;
+    }
+
+    .upper .semi {
+        width: 60px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .upper .semi .circle {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #b53733;
+    }
+
+    .upper .bar {
+        width: 60px;
+        height: 70px;
+        background-color: #b53733;
+    }
+
+    .lower {
+        width: 60px;
+        height: 33%;
+        background-color: #ea7457;
+    }
+</style>
