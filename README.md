@@ -1,8 +1,8 @@
-# CSSBattle Daily Challenge Solution
+# CSSBattle Daily Targets Solution
 
 Source - [Daily Targets | CSSBattle](https://cssbattle.dev/daily)
 
-Live Preview - [CSSBattle Daily Challenges Solution](https://abhinavg916.github.io/css-battle-daily-challenges/)
+Live Preview - [CSSBattle Daily Targets Solution](https://abhinavg916.github.io/css-battle-daily-challenges/)
 
 Sources of Truth
 
