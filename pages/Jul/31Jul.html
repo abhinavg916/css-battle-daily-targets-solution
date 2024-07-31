@@ -1,0 +1,78 @@
+<div class="container">
+    <div class="wrapper">
+        <div class="shape">
+            <div class="triangle">
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+        </div>
+        <div class="horizontal-bar bar"></div>
+        <div class="vertical-bar bar"></div>
+    </div>
+</div>
+<style>
+    .container {
+        margin: -8px;
+        width: 400px;
+        height: 300px;
+        background-color: #edaf38;
+    }
+
+    .wrapper {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translate(-10%, 25%);
+    }
+
+    .shape {
+        width: 250px;
+        height: 100px;
+        display: flex;
+        align-items: flex-start;
+        overflow: hidden;
+    }
+
+    .triangle {
+        width: 0px;
+        height: 0px;
+        border-top: 120px solid transparent;
+        border-right: 300px solid #7f7f24;
+        border-bottom: 120px solid transparent;
+        transform: translate(-10%, -4%);
+        overflow: visible;
+    }
+
+    .circle {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #ffffcd;
+    }
+
+    .circle:nth-child(1) {
+        transform: translate(280%, -60%);
+    }
+
+    .circle:nth-child(2) {
+        transform: translate(400%, -160%);
+    }
+
+    .bar {
+        width: 300px;
+        height: 40px;
+        background-color: #7f7f24;
+    }
+
+    .horizontal-bar {
+        transform: translate(15%, 0%);
+    }
+
+    .vertical-bar {
+        width: 40px;
+        height: 200px;
+        transform: translate(350%, -80%);
+    }
+</style>
