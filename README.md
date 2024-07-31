@@ -12,9 +12,10 @@ Sources of Truth
 
 ## To-do feature
 
--   [ ] Improve accuracy in Jul 23 Challenge
 -   [ ] View source code button with automation script using JavaScript to display the source of the challenge
 -   [ ] Add feature of Heatmap on the landing page
+-   [ ] Improve accuracy of the following day targets,
+    -   Jul - 23, 31
 
 ---
 
