@@ -2,7 +2,7 @@
 
 Source - [Daily Targets | CSSBattle](https://cssbattle.dev/daily)
 
-Live Preview - [CSSBattle Daily Targets Solution](https://abhinavg916.github.io/css-battle-daily-challenges/)
+Live Preview - [CSSBattle Daily Targets Solution](https://abhinavg916.github.io/css-battle-daily-targets-solution/)
 
 Sources of Truth
 
