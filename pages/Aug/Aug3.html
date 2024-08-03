@@ -1,0 +1,57 @@
+<div class="container">
+    <div class="wrapper">
+        <div class="white-tri"></div>
+        <div class="blue-tri"></div>
+        <div class="red-tri"></div>
+    </div>
+</div>
+<style>
+    .container {
+        margin: -8px;
+        width: 400px;
+        height: 300px;
+        background-color: #232323;
+        overflow: hidden;
+    }
+
+    .wrapper {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .white-tri {
+        width: 0;
+        height: 0;
+        border-top: 75px solid #f2f2f2;
+        border-left: 125px solid transparent;
+        border-right: 125px solid transparent;
+        position: absolute;
+        top: 25%;
+    }
+
+    .blue-tri {
+        width: 0;
+        height: 0;
+        border-top: 75px solid transparent;
+        border-bottom: 75px solid transparent;
+        border-right: 125px solid #78b4f3;
+        position: absolute;
+        right: 19%;
+        bottom: 25%;
+    }
+
+    .red-tri {
+        width: 0;
+        height: 0;
+        border-bottom: 0px solid transparent;
+        border-left: 250px solid #df7065;
+        border-top: 150px solid transparent;
+        position: absolute;
+        left: 19%;
+        bottom: 25%;
+    }
+</style>
