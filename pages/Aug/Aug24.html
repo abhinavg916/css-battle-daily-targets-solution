@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="wrapper">
+        <div class='shape'></div>
+        <div class='shape'></div>
+        <div class='shape'></div>
+        <div class='shape'></div>
+    </div>
+</div>
+<style>
+    .container {
+        margin: -8px;
+        width: 400px;
+        height: 300px;
+        background-color: #EFF8FE;
+        overflow: hidden;
+    }
+
+    .wrapper {
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .shape {
+        background-color: #FAE29E;
+    }
+
+    .shape:nth-child(2),
+    .shape:nth-child(3) {
+        background-color: #668884;
+    }
+</style>
